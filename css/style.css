@@ -1,0 +1,88 @@
+:root{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    /* Primary color*/
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+    --Soft-violet-transparent: rgba(95, 18, 143, 0.5);
+    /* Neutral colors*/
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Slightlier-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    box-sizing: border-box;
+    background-color: var(--Very-dark-blue);
+}
+.stats-card{
+    width: 332px;
+    margin: 0 auto;
+    margin-top: 86px;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: var(--Dark-desaturated-blue);
+}
+.stats-card header img{
+    height: 244px;
+    position: static;
+    /*filter: contrast(100%);*/
+}
+.stats-card header div{
+    background-color: var(--Soft-violet-transparent);
+    height: 244px;
+    width: 332px;
+    position: absolute;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+main{
+    text-align: center;
+}
+main h1{
+    color: var(--White);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 35px 28px 15px 28px;
+    letter-spacing: 1px;
+}
+.plan_insights{
+    color: var(--Soft-violet);
+}
+main p{
+    margin: 0 38px 40px 38px;
+    font-family: 'Inter', sans-serif;
+    color: var(--Slightlier-transparent-white);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 64px;
+    flex-direction: column;
+}
+.stats > div{
+    margin: 0 0 34px 0;
+}
+.stats > div > h3{
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    margin: 0;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.stats > div > span{
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Slightlier-transparent-white);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
