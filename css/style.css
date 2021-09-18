@@ -13,10 +13,11 @@
 }
 body{
     margin: 0 0 0 0;
-    padding: 0;
-    width: 375px;
+    padding: 0 auto;
+    min-width: 375px;
     box-sizing: border-box;
     background-color: var(--Very-dark-blue);
+    align-content: center;
 }
 .stats-card{
     width: 332px;
@@ -25,6 +26,7 @@ body{
     overflow: hidden;
     border-radius: 6px;
     background-color: var(--Dark-desaturated-blue);
+    align-content: center;
 }
 .stats-card header img{
     height: 244px;
